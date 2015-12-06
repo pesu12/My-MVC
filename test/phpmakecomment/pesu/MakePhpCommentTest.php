@@ -1,6 +1,6 @@
 <?php
 
-namespace phpmakecomment;
+namespace Anax\phpmakecomment;
 
 /**
  * My Module test.
@@ -17,7 +17,7 @@ class MakePhpCommentTest extends \PHPUnit_Framework_TestCase
      */
     public function testCreate()
     {
-        $mpc = new \phpmakecomment\pesu\MakePhpComment();
+        $mpc = new \Anax\phpmakecomment\pesu\MakePhpComment();
     }
 	
     /**
