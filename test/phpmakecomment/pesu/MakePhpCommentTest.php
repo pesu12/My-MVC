@@ -17,7 +17,7 @@ class MakePhpCommentTest extends \PHPUnit_Framework_TestCase
      */
     public function testCreate()
     {
-        $mpc = new \pesu\MakePhpComment();
+        $mpc = new \phpmakecomment\pesu\MakePhpComment();
     }
 	
     /**
