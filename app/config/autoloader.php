@@ -16,6 +16,7 @@ call_user_func(function() {
     $loader->addNameSpace('Anax', ANAX_INSTALL_PATH . 'src')
            ->addNameSpace('', ANAX_APP_PATH . 'src')
            ->addNameSpace('Michelf', ANAX_INSTALL_PATH . '3pp/php-markdown/Michelf')
+            ->addNameSpace('pesu', ANAX_INSTALL_PATH . '3pp/php-makecomment/pesu')
            ->register();
 });
 

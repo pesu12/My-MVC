@@ -14,7 +14,8 @@
         }
     ],
     "require": {
-        "php": ">=5.4"
+        "php": ">=5.4",
+		"pesu/php-makecomment": "dev-master"
     },
     "autoload": {
         "psr-4": { "Anax\\": "src/" }

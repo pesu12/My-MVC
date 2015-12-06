@@ -13,5 +13,16 @@ $app->theme->setVariable('title', "Hello World Pagecontroller");
 // Add a view
 $app->views->add('welcome/hello_world');
 
+$app->router->add('', function() use ($app) {
+
+    $content = $app->textFilter->doFilter('Function: Test php comment\n\n@param
+     string $text xxxx\n\n@return string text xxxx','shortcode, phpcomment');
+
+    $app->views->add('welcome/page', [
+        'content' => $content,
+    ]);
+});
+$app->router->handle();
+
 // Render the response using theme engine.
 $app->theme->render();

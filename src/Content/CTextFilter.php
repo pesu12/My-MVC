@@ -30,6 +30,7 @@ class CTextFilter
             'markdown'  => 'markdown',
             'nl2br'     => 'nl2br',
             'shortcode' => 'shortCode',
+			'phpcomment' => 'phpcomment', 
         );
 
         // Make an array of the comma separated string $filters
@@ -48,7 +49,17 @@ class CTextFilter
         return $text;
     }
 
-
+/**
+* Format text according to comment.
+*
+* @param string $text the text that should be formatted.
+*
+* @return string as the formatted html-text.
+*/
+public function phpcomment($text)
+{
+   return \pesu\MakePhpComment::makephpcomment($text);
+}
 
     /**
      * Helper, BBCode formatting converting to HTML.
