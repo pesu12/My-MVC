@@ -3,8 +3,6 @@
 namespace Pesu12\MakePhpComment;
 
 
-require_once(__DIR__ . '/../../src/MakePhpComment/MakePhpComment.php');
-
 /**
  * My Module test.
  *
