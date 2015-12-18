@@ -1,6 +1,6 @@
 <?php
 
-namespace phpmakecomment;
+namespace pesu;
 
 /**
  * My Module test.
