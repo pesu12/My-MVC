@@ -1,7 +1,5 @@
 <?php
 
-namespace phpmakecomment;
-
 /**
  * My Module test.
  *
